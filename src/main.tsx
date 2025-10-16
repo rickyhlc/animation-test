@@ -11,14 +11,14 @@ import "./index.css";
 const urlRoot = "/animation-test";
 const router = createBrowserRouter([
   {
-    path: urlRoot,
+    path: "/",
     Component: App,
   },
   {
-    path: `${urlRoot}/bouncingBall`,
+    path: "/bouncingBall",
     Component: BouncingBallPage,
   }
-]);
+], { basename: urlRoot });
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
