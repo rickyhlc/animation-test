@@ -8,7 +8,7 @@ import BouncingBallPage from "./BouncingBallPage.tsx";
 
 import "./index.css";
 
-const urlRoot = "/animation-test";
+// const urlRoot = "/animation-test";
 const router = createHashRouter([
   {
     path: "/",
