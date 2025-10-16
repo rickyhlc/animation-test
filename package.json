@@ -1,5 +1,6 @@
 {
   "name": "animation-test",
+  "homepage": "http://localhost:5173/animation-test/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
